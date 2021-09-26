@@ -16,7 +16,7 @@ This section contains our source code with the following implementations:
 
 2. `src/VNA_2DTRNN`: an implementation of VNA using 2D Tensorized RNNs to find the ground state of the 2D Edwards-Anderson model with open boundary conditions. To execute this module, you can run the file `src/run_VNA_EdwardsAnderson.py`.
 
-3. `src/VNA_DilatedRNN`: an implementation of VNA using Dilated RNNs to find the ground state of the Sherrington-Kirkpatrick model. To execute implemnentation, you can run the python file `src/run_VNA_SherringtonKirkpatrick.py`.
+3. `src/VNA_DilatedRNN`: an implementation of VNA using Dilated RNNs to find the ground state of the Sherrington-Kirkpatrick model. To execute this implementation, you can run the python file `src/run_VNA_SherringtonKirkpatrick.py`.
 
 To be able to run `VCA` in each one of these modules, you can set Bx0 (initial transvere magnetic field) in the hyperparameters section to zero in the execution python files. Similarly if you want to run `VQA`, you can set T0 (initial temperature) to zero. Also, if you want to run `RVQA`, you can set Bx0 and T0 to be both non-zero. Finally, if you want to run Classical-Quantum optimization `CQO`, you can set both Bx0 and T0 to zero. More details about the acronyms `VCA`, `VQA`, `RVQA` and `CQO` are provided in [our paper](https://arxiv.org/abs/2101.10154).
 
