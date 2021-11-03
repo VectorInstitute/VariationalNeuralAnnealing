@@ -33,7 +33,8 @@ In this section of the repository, we demonstrate how our source code works in s
 2. `tutorials/VNA_2DTRNNs.ipynb`: a demonstration of VNA using 2D Tensorized RNNs on the 2D Edwards-Anderson model with open boundary conditions.
 3. `tutorials/VNA_DilatedRNNs.ipynb`: a demonstration of VNA using Dilated RNNs applied to the Sherrington-Kirkpatrick model.
 
-For more details, you can check our manuscript on arXiv: https://arxiv.org/abs/2101.10154 or on Nature Machine Intelligence: https://www.nature.com/articles/s42256-021-00401-3.
+For more details, you can check our manuscript on arXiv: https://arxiv.org/abs/2101.10154 or on Nature Machine Intelligence: https://www.nature.com/articles/s42256-021-00401-3 (free access at https://rdcu.be/cAIyS).
+
 For questions or inquiries, you can reach out to this email mohamed.hibat.allah@uwaterloo.ca.
 
 ## Dependencies
