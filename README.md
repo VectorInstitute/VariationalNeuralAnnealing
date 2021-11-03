@@ -1,7 +1,7 @@
 # Variational Neural Annealing
-Variational neural annealing (VNA) is a framework to variationally simulate classical and quantum annealing for the purpose of solving optimization problems using neural networks. In this paper https://arxiv.org/abs/2101.10154, we show that we can implement a variational version of classical annealing (VCA) and its quantum counterpart (VQA) using recurrent neural networks. We find that our implementation significantly outperforms traditional simulated annealing in the asymptotic limit on prototypical spin models, suggesting the promising potential of this route to optimization.
+Variational neural annealing (VNA) is a framework to variationally simulate classical and quantum annealing for the purpose of solving optimization problems using neural networks. In this paper https://www.nature.com/articles/s42256-021-00401-3 (arXiv version: https://arxiv.org/abs/2101.10154), we show that we can implement a variational version of classical annealing (VCA) and its quantum counterpart (VQA) using recurrent neural networks. We find that our implementation significantly outperforms traditional simulated annealing in the asymptotic limit on prototypical spin models, suggesting the promising potential of this route to optimization.
 
-This repository is aimed to facilitate the reproducibilty of the results of [our paper](https://arxiv.org/abs/2101.10154).
+This repository is aimed to facilitate the reproducibilty of the results of [our paper](https://www.nature.com/articles/s42256-021-00401-3).
 
 Our implementation is based on [RNN wave functions's code](https://github.com/mhibatallah/RNNWavefunctions).
 
@@ -33,7 +33,7 @@ In this section of the repository, we demonstrate how our source code works in s
 2. `tutorials/VNA_2DTRNNs.ipynb`: a demonstration of VNA using 2D Tensorized RNNs on the 2D Edwards-Anderson model with open boundary conditions.
 3. `tutorials/VNA_DilatedRNNs.ipynb`: a demonstration of VNA using Dilated RNNs applied to the Sherrington-Kirkpatrick model.
 
-For more details, you can check our manuscript on arXiv: https://arxiv.org/abs/2101.10154.
+For more details, you can check our manuscript on arXiv: https://arxiv.org/abs/2101.10154 or on Nature Machine Intelligence: https://www.nature.com/articles/s42256-021-00401-3.
 For questions or inquiries, you can reach out to this email mohamed.hibat.allah@uwaterloo.ca.
 
 ## Dependencies
