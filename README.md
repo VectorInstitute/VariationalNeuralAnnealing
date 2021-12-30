@@ -48,13 +48,19 @@ This code is under the ['Attribution-NonCommercial-ShareAlike 4.0 International'
  
 ## Citing
 ```bibtex
-@misc{VNA2021,
-      title={Variational Neural Annealing}, 
-      author={Mohamed Hibat-Allah and Estelle M. Inack and Roeland Wiersema and Roger G. Melko and Juan Carrasquilla},
-      year={2021},
-      eprint={2101.10154},
-      archivePrefix={arXiv},
-      primaryClass={cond-mat.dis-nn}
+@Article{VNA2021,
+author={Hibat-Allah, Mohamed and Inack, Estelle M. and Wiersema, Roeland and Melko, Roger G. and Carrasquilla, Juan},
+title={Variational neural annealing},
+journal={Nature Machine Intelligence},
+year={2021},
+month={Nov},
+day={01},
+volume={3},
+number={11},
+pages={952-961},
+issn={2522-5839},
+doi={10.1038/s42256-021-00401-3},
+url={https://doi.org/10.1038/s42256-021-00401-3}
 }
 ```
 
