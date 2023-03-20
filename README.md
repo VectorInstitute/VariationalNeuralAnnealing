@@ -26,6 +26,10 @@ We note that in this code we use the `tensordot2` operation from the [TensorNetw
 
 This section contains the tools we used to generate the random instances of the models we considered in our paper.
 
+### `data`
+
+This section provides the ground states of the Edwards-Anderson (EA) and the Sherrington-Kirkpatrick (SK) models that were obtained from the [spin-glass server](http://spinglass.uni-bonn.de/) for 25 different seeds. The instances were generated using the code provided in `tools'. 
+
 ### `tutorials`
 In this section of the repository, we demonstrate how our source code works in simple cases through Jupyter notebooks that you can run on [Google Colaboratory](colab.research.google.com) to take advantage of GPU speed up. These tutorials will help you to become more familiar with the content of the source code. The `tutorials` module contains the following:
 
